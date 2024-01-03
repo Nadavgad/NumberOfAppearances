@@ -2,13 +2,13 @@ class NumberOfAppearances:
 
     def sumOfWordsOnFile(self, file_path_txt):
         """
-        
+
         :param file_path_txt: The path for the txt file
         :return: Dictionary that keys are words and values are number of word appearances
         """
         word_appear = {}
         try:
-            with open(file_path_txt, 'r') as file:
+            with open(file_path_txt, 'r', encoding='UTF-8') as file:
                 file_data = file.read()
 
                 words = file_data.split()
