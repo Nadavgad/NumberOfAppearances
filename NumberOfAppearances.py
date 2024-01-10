@@ -5,7 +5,7 @@ FILE_PATH = r'C:\Users\OS174\Documents\NadavTxt.txt'
 
 def read_file(file_path_read):
     """
-    Read a file and split its content into a list of words.
+    Read a file and split its content into a list of words. 
 
     :param file_path_read: The path for the txt file
     :return: List of words
