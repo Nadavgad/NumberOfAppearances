@@ -54,14 +54,3 @@ def appearances(file_path_txt, punctuation_chars=string.punctuation):
 
     return number_of_words
 
-
-# Test
-word_appearances = appearances(FILE_PATH)
-
-if word_appearances:
-
-    print("Word Appearances:\n")
-
-    for word, count in word_appearances.items():
-        
-        print(f"{word}: {count}\n")
